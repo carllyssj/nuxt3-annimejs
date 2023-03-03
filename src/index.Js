@@ -1,3 +1,5 @@
+import anime from 'animejs'
+import pkg from '../package.json'
 export default defineNuxtPlugin((nuxtApp) => {
   nuxtApp.vueApp.provide("$anime", anime)
   return {
@@ -6,3 +8,4 @@ export default defineNuxtPlugin((nuxtApp) => {
     }
   }
 })
+export { pkg as meta } 
