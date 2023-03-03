@@ -1,0 +1,40 @@
+{
+  "name": "nuxt3-animejs",
+  "version": "1.0.0",
+  "description": "Anime.js module for Nuxt3",
+  "author": "Ivo Dolenc",
+  "license": "MIT",
+  "homepage": "https://github.com/ivodolenc/nuxt-animejs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ivodolenc/nuxt-animejs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ivodolenc/nuxt-animejs/issues"
+  },
+  "main": "src/index.js",
+  "files": [
+    "src",
+    "templates"
+  ],
+  "keywords": [
+    "nuxt3",
+    "nuxtjs",
+    "nuxt-module",
+    "nux3t-animejs",
+    "nuxt3-animejs-module",
+    "nuxt3-animations",
+    "animejs-module",
+    "animations",
+    "animejs"
+  ],
+  "scripts": {
+    "release": "standard-version && git push --follow-tags && npm publish"
+  },
+  "dependencies": {
+    "animejs": "^3.2.1"
+  },
+  "devDependencies": {
+    "standard-version": "^9.5.0"
+  }
+}
